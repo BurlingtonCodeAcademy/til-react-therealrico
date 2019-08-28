@@ -8,7 +8,8 @@ import allFacts from './allFacts';
 
 class Reflex extends React.Component{
     render() {
-        return(<BrowserRouter>
+        return(
+        <BrowserRouter>
         <Route exact path= "/" component={App} />
         <Route exact path= "/facts" component={allFacts} />
         {/*<Route exact path= "/fact/:objectId?" component={singleFact} />*/}
